@@ -1,0 +1,16 @@
+{% extends 'flatpages/default.html' %}
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+{{ flatpage.content }}
+
+<p><p> {{ flatpage.content }} </p>
+<p>
+    <span style="color: red; font-family: Arial; font-size: 24px;"> <em>Данный текст имеет</em> другой шрифт и размер текста.
+    </span>
+</p>
+{% endblock content %}

@@ -1,2 +1,0 @@
-# site
-this site django
